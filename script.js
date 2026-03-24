@@ -24,5 +24,5 @@ function calculate() {
     }
   }
 
-  document.getElementById("result").innerHTML = "Result: " + result;
+  document.getElementById("result").textContent = "Result: " + result;
 }
